@@ -19,6 +19,6 @@ public class CreateUserActivity extends AppCompatActivity {
     public void onClick(View view) {
         EditText text = findViewById(R.id.username);
         String toastMsg = text.getText().toString();
-        Toast.makeText(this, "User: " + toastMsg + "created.", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "User: " + toastMsg + " created.", Toast.LENGTH_LONG).show();
     }
 }
