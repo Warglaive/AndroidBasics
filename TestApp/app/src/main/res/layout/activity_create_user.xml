@@ -48,23 +48,19 @@
             android:id="@+id/female"
             android:layout_width="149dp"
             android:layout_height="match_parent"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
             android:layout_marginTop="325dp"
             android:layout_marginEnd="31dp"
             android:button="@drawable/female"
-            android:text="F" />
+            android:text="@string/f" />
 
         <RadioButton
             android:id="@+id/male"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
             android:layout_marginStart="10dp"
             android:layout_marginTop="326dp"
             android:button="@drawable/male"
-            android:text="M" />
+            android:text="@string/m" />
 
 
     </RadioGroup>
